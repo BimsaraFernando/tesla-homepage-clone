@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 
-import Accessories from './assets/Desktop-Accessories.jpg';
+// import Accessories from './assets/Desktop-Accessories.jpg';
 import ModelS from './assets/Desktop-ModelS.jpeg';
 import Model3 from './assets/Desktop-Model3.jpeg';
 import ModelX from './assets/Desktop-ModelX.jpeg';
@@ -10,12 +10,8 @@ import SolarPanels from './assets/Desktop-SolarPanels.jpeg';
 import SolarRoof from './assets/Desktop-SolarRoof.jpeg';
 import Item from './components/Item';
 
-
-
 function App() {
   return (
-
-    
 
     <div className="App">
       <Header />
@@ -25,11 +21,11 @@ function App() {
           desc='Money-back guarantee'
           descLink=''
           backgroundImage={SolarPanels}
-          leftBtnText='ORDER NOW'
+          leftBtnText='Learn more'
           leftBtnLink=''
-          rightBtnText='LEARN MORE'
           rightBtnLink=''
-          twoButtons='true'
+          rightBtnText='LEARN MORE'
+          twoButtons='true '
           first
         />
         <Item
@@ -41,8 +37,8 @@ function App() {
           leftBtnLink=''
           rightBtnText='LEARN MORE'
           rightBtnLink=''
-          twoButtons='true'
-          first
+          twoButtons='true '
+
         />
         <Item
           title='Model3'
@@ -54,7 +50,6 @@ function App() {
           rightBtnText='LEARN MORE'
           rightBtnLink=''
           twoButtons='true'
-          first
         />
         <Item
           title='ModelX'
@@ -66,7 +61,6 @@ function App() {
           rightBtnText='LEARN MORE'
           rightBtnLink=''
           twoButtons='true'
-          first
         />
         <Item
           title='ModelY'
@@ -78,7 +72,6 @@ function App() {
           rightBtnText='LEARN MORE'
           rightBtnLink=''
           twoButtons='true'
-          first
         />
         <Item
           title='SolarRoof'
@@ -90,7 +83,7 @@ function App() {
           rightBtnText='LEARN MORE'
           rightBtnLink=''
           twoButtons='true'
-          first
+
         />
       </div>
     </div>

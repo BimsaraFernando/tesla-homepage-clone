@@ -6,6 +6,7 @@
     background-size: cover;
     display: flex;
     justify-content: center;
+    scroll-snap-align: start;
 }
 
 .item__container {
@@ -26,7 +27,7 @@
 }
 
 .item__textDesc {
-    font-size: 200;
+    font-weight: 200;
     font-size: 14px;
 }
 
@@ -42,5 +43,8 @@
 
 .item__expand {
     color: white;
-    width: 100;
+    width: 100%;
+    margin-top: 3%;
+    margin-left: 45%;
+    justify-content: center;
 }

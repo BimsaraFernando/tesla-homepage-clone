@@ -29,7 +29,7 @@ const Item = ({
                 </div>
                 <div className="item__lowerThird">
                     <div className="item__buttons">
-                        <Button imp='primary' text={leftBtnLink} link={leftBtnLink} />
+                        <Button imp='primary' text={leftBtnText} link={leftBtnLink} />
 
                         {twoButtons && (
                             <Button imp='secondary' text={rightBtnText} link={rightBtnLink} />
